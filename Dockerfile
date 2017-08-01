@@ -2,6 +2,7 @@ FROM ubuntu:16.04
 # ------------------------------------------------------
 # --- Base pre-installed tools
 RUN apt-get update -qq
+RUN apt install wget
 
 # Generate proper EN US UTF-8 locale
 # Install the "locales" package - required for locale-gen
