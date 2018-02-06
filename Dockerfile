@@ -49,20 +49,10 @@ RUN sdkmanager "platform-tools"
 # SDKs
 # Please keep these in descending order!
 RUN sdkmanager "platforms;android-26"
-RUN sdkmanager "platforms;android-25"
-RUN sdkmanager "platforms;android-24"
-RUN sdkmanager "platforms;android-23"
-RUN sdkmanager "platforms;android-22"
-RUN sdkmanager "platforms;android-21"
-RUN sdkmanager "platforms;android-20"
-RUN sdkmanager "platforms;android-19"
 
 # build tools
 # Please keep these in descending order!
-RUN sdkmanager "build-tools;26.0.1"
-RUN sdkmanager "build-tools;26.0.0"
-RUN sdkmanager "build-tools;25.0.3"
-RUN sdkmanager "build-tools;25.0.2"
+RUN sdkmanager "build-tools;26.0.2"
 
 # Extras
 RUN sdkmanager "extras;google;google_play_services"
